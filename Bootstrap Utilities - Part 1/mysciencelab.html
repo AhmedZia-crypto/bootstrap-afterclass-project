@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .jumbo{
+            background-color: rgb(130, 219, 219);
+            color: rgb(0, 21, 255);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid jumbo" >
+        <div class="container">
+            <h1>My Science Lab</h1>
+            <p>Welcome to the lab! Here are the experiments running, the discoveries made, and how far each research project has come</p>
+            <button class="btn btn-success">
+                Chemistry
+            </button>
+            <button class="btn btn-primary">
+                Physics
+            </button>
+             <button class="btn btn-warning">
+                Botony
+            </button>
+             <button class="btn btn-danger">
+                Zoology
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Pending Experiments</h1>
+         <button class="btn btn-danger">
+                Zoology
+                <span class="badge badge-warning">3</span>
+            </button>
+             <button class="btn btn-success">
+                Chemistry
+                <span class="badge badge-warning">4</span>
+            </button>
+             <button class="btn btn-primary">
+                Physics
+                <span class="badge badge-warning">1</span>
+            </button>
+             <button class="btn btn-warning">
+                Botony
+                <span class="badge badge-success">2</span>
+            </button>
+    </div>
+    <div class="container">
+        <h1>Research Progress</h1>
+        <p>Chemistry</p>
+        <div class="Progress">
+            <div class="progress-bar bg-success" style="width: 70%;">
+                70%
+            </div>
+        </div>
+         <p>Physics</p>
+        <div class="Progress">
+            <div class="progress-bar bg-primary" style="width: 20%;">
+                20%
+            </div>
+        </div>
+         <p>Botony</p>
+        <div class="Progress">
+            <div class="progress-bar bg-warning" style="width: 40%;">
+                40%
+            </div>
+        </div>
+         <p>Zoology</p>
+        <div class="Progress">
+            <div class="progress-bar bg-danger" style="width: 67%;">
+                67%
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
